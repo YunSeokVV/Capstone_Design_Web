@@ -34,18 +34,17 @@
 
 # **사용 기술**
 
-### 1.FireBase
-사용자의 예약 정보, 각 층별로 남아있는 방의 개수 등을 표현할 때 FireStore를 사용하였습니다.
+### 1.Linux(Ubuntu)
+서버측 컴퓨터의 OS는 Linux의 Ubuntu 를 선택해서 개발을 진행했습니다.
 
-### 2.Flutter
-이 앱은 플러터로 제작되었습니다.
+### 2.ApacheHttpServer
 
-### 3.Android SDK
+### 3.PHP
+백엔드단의 언어로 PHP 를 사용했습니다. DB에서 데이터를 추가,수정,삭제를 할 때 사용했습니다.
 
+### 4.MySQL
+고객과 관련된 정보, 상품에 관한 정보 등을 담는 데이터 베이스 입니다.
 
 # **시연 영상**
-https://youtu.be/l3bmaCyo8WA
-
-
-
+https://youtu.be/KgPOE8p0VKs
 
