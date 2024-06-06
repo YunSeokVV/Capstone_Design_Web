@@ -1,52 +1,75 @@
-### QR코드 기반 모바일 결제 시스템(관리자용 웹 페이지)
+# <p align="center">   QR코드 모바일 결제 시스템 </p>
 
-# **프로젝트 개요**
+##### 
 
-마트를 관리하기 위한 관리자용 웹 페이지 입니다. 관리자는 소비자의 주문정보를 확인하거나 처리할 수 있습니다. 
-마트에서 판매하는 상품 정보를 설정할 수 있습니다.
-
-# **프로젝트 기여도**
-
-기획 85%
-
-개발 90%
-
-# **기능**
-
-### 1.소비자 주문정보 확인
-소비자들의 주문정보를 확인할 수 있습니다. 고객명, 배송지 주소, 연락처, 주문시간, 배송상태, 총 주문 금액 등을 확인할 수 있습니다.
-
-### 2.주문정보 상세 확인
-소비자의 상세 구매내역을 확인할 수 있습니다. 구매 상품명, 구매한 상품의 개수, 각 상품의 가격 등을 확인할 수 있습니다. 
-
-### 3.주문정보 배송 완료 처리하기
-소비자 주문정보에 있는 배송 상태를 '배송전' 에서 '배송 완료' 로 설정할 수 있습니다. 이를 통해 관리자 측에서는 배송이 되지 않은 곳과 배송이 완료된 곳을 구분할 수 있습니다.
-
-### 4.판매 상품 정보 확인
-마트에서판매하는 물품들을 확인할 수 있습니다. 
-
-판매 상품의 이름, 가격, 상품에 대한 상세 설명을 확인할 수 있습니다. 검색기능을 활용해서 특정 상품을 찾을 수 있습니다.
+<p align="center">소비자들의 주문정보를 처리하기 위한 관리자용 웹페이지입니다.</p>
 
 
-### **담당한 기능**
 
-1.주문정보 상세 확인
+**목차**
 
-2.주문정보 배송 완료 처리하기
+1. 웹의기능
+2. 사용한 기술들
+3. 시연영상 링크
 
-# **사용 기술**
 
-### 1.Linux(Ubuntu)
-서버측 컴퓨터의 OS는 Linux의 Ubuntu 를 선택해서 개발을 진행했습니다.
 
-### 2.ApacheHttpServer
+#  1. 웹의 기능
 
-### 3.PHP
-백엔드단의 언어로 PHP 를 사용했습니다. DB에서 데이터를 추가,수정,삭제를 할 때 사용했습니다.
 
-### 4.MySQL
-고객과 관련된 정보, 상품에 관한 정보 등을 담는 데이터 베이스 입니다.
 
-# **시연 영상**
+
+![](https://private-user-images.githubusercontent.com/43668299/337126095-fc41219f-a73c-4fec-a550-0f7f673a26c2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTA4NjgsIm5iZiI6MTcxNzY1MDU2OCwicGF0aCI6Ii80MzY2ODI5OS8zMzcxMjYwOTUtZmM0MTIxOWYtYTczYy00ZmVjLWE1NTAtMGY3ZjY3M2EyNmMyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA1MDkyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhYWYwZmUzNjEwYmQ5ZWJhMWZjMGJmMDI1ZjAxY2M5MDdkOThjOGM0ZGRlZjVlZmUwYzVlYTE3MGIzNDNjZTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Ykq021DeJTu2gafhKg8nAAb25qRFwcXDuVVY7_hiDTs)
+
+
+
+![](https://private-user-images.githubusercontent.com/43668299/337126143-f0658051-453e-4164-ba4a-4790ce65271c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTA4NjgsIm5iZiI6MTcxNzY1MDU2OCwicGF0aCI6Ii80MzY2ODI5OS8zMzcxMjYxNDMtZjA2NTgwNTEtNDUzZS00MTY0LWJhNGEtNDc5MGNlNjUyNzFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA1MDkyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5NjNiYzNiYTM4YmZmZjY0YjllNzk0N2NjYTE4ZDFlYjlkZWY2NzZiMDY5MTJkODNiNDYwMDg4MmQ2MTcxNzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7XXzoW-JS0HXP37xYC48UYxOkGjiUD6kpiebjarVjkk)
+
+
+
+![](https://private-user-images.githubusercontent.com/43668299/337127173-66ac4c1e-978b-43d0-bff5-c41d7d39692d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTExNDcsIm5iZiI6MTcxNzY1MDg0NywicGF0aCI6Ii80MzY2ODI5OS8zMzcxMjcxNzMtNjZhYzRjMWUtOTc4Yi00M2QwLWJmZjUtYzQxZDdkMzk2OTJkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA1MTQwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY4YWEwMTZkZjQ3OTllOTViODc4YjRjNjQ4YmZmZDFlYjAyNzIyMmE0MTJiNjcwODY4MWUxNDg4N2JmZWJkYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.8a2moG-dKqImPv9zPCdhWd8b70zAJLlJkbHcjaBoHWQ)
+
+
+
+![](https://private-user-images.githubusercontent.com/43668299/337126203-eed8ba5c-134a-4512-a3bb-d2a56fb3af6f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTExNDcsIm5iZiI6MTcxNzY1MDg0NywicGF0aCI6Ii80MzY2ODI5OS8zMzcxMjYyMDMtZWVkOGJhNWMtMTM0YS00NTEyLWEzYmItZDJhNTZmYjNhZjZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA1MTQwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZlZjcwYzNjZWI2M2Y0OGUzNDFlMmQ1MTU4M2Y2MjdkMTU4Mjg5YWE3MzJjNDIwMzk3M2ZjOWYyZDkwMzBkNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.HNuncjK6ZwJdpPamwtnNq4Yi16pvN7T1w2b1nHyv_tM)
+
+
+
+![](https://private-user-images.githubusercontent.com/43668299/337127557-12afdd57-699e-427d-ac73-a8af7b2196c3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTEyNzgsIm5iZiI6MTcxNzY1MDk3OCwicGF0aCI6Ii80MzY2ODI5OS8zMzcxMjc1NTctMTJhZmRkNTctNjk5ZS00MjdkLWFjNzMtYThhZjdiMjE5NmMzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA1MTYxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRjNjI2ZmQ1ZmRmNTRhMTI4NGU4M2FkYzU5NWUxM2U2MDNlMGM4NGRlYWVhNTkyYzcwYTJhMTU5YjY4ZWNiMmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NB9kqQhGvV9GYBMgLYfdeYC5RD9PhGhta96tWdu2XzM)
+
+
+
+# 기능 상세설명
+
+**1.관리자 페이지 메인화면**
+
+ 관리자페이지의 메인화면입니다. 원하는 기능을 선택합니다.
+
+**2.소비자 주문정보 확인**
+
+ 앱을 통해 사용자가 구매한 주문정보를 확인할 수 있습니다.
+
+**3.소비자 주문정보 옵션별 검색**
+
+ 주문정보를 옵션별로 검색해서 확인할 수 있습니다. (주문번호, 고객명, 주소, 연락처)
+
+**4.상품정 확인**
+
+ 마트에서 판매하는 상품의 정보를 확인할 수 있습니다.
+
+**5.상정보 옵션별 검색**
+
+ 상품의 정보를 옵션별로 검색할 수 있습니다. (상품번호, 상품명, 사격)
+
+# 2. 사용한 기술 & 라이브러리
+
+- Language : PHP
+- HTML
+- JavaScript
+
+
+
+
+# 3. 시연영상 링크
+
 https://youtu.be/KgPOE8p0VKs
-
