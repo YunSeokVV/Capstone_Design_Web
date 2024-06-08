@@ -11,9 +11,10 @@
 
 **목차**
 
-1. 웹의기능
+1. 앱의기능
 2. 사용한 기술들
-3. 시연영상 링크
+3. 서비스 구조
+4. 시연영상 링크
 
 
 
@@ -57,9 +58,11 @@
 - HTML
 - JavaScript
 
+# 3. 서비스 구조
+
+![](https://private-user-images.githubusercontent.com/43668299/337859220-3d332044-1b17-4dfa-90b7-bcc3884d1510.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc4MzI2MzAsIm5iZiI6MTcxNzgzMjMzMCwicGF0aCI6Ii80MzY2ODI5OS8zMzc4NTkyMjAtM2QzMzIwNDQtMWIxNy00ZGZhLTkwYjctYmNjMzg4NGQxNTEwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA4VDA3Mzg1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUwOWI1YzZkNDYyMjIwZTE4MDNjYjExODM1ZDc0ZjdkZmIzMmJkZTc2ZGQ2MThhMWRjZWUzOTI2OGNmMDk4OTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.yDHtCpU1IMIe3Ni9OZNs-OY3a_3M2ecJBA4pW3rwXsk)
 
 
-
-# 3. 시연영상 링크
+# 4. 시연영상 링크
 
 https://youtu.be/KgPOE8p0VKs
