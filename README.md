@@ -25,9 +25,9 @@
 
 ![](https://raw.githubusercontent.com/YunSeokVV/Capstone_Design_Web/master/preview/preView3.png)
 
-![](https://raw.githubusercontent.com/YunSeokVV/Capstone_Design_Web/master/preview/preView4.png)
-
 ![](https://raw.githubusercontent.com/YunSeokVV/Capstone_Design_Web/master/preview/preView5.png)
+
+![](https://raw.githubusercontent.com/YunSeokVV/Capstone_Design_Web/master/preview/preView4.png)
 
 
 
